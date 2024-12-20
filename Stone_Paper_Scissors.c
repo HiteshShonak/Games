@@ -31,10 +31,10 @@ int check_result(int user_choice,int comp_choice,char player_name[100]){
     }
 }
 int choose(char player_name[100]){
-    int spc;
+    int player_input;
     printf("Choose: ");
-    scanf("%d",&spc);
-    switch(spc){
+    scanf("%d",&player_input);
+    switch(player_input){
         case 1:
         printf("%s chose Stone\n",player_name); return 1;
         case 2:
